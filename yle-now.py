@@ -84,11 +84,23 @@ def parse_args():
 		help='Yle API key',
 		metavar='YLE-APP-KEY', type=str, required=True)
 
-	stations=['yle-radio-1', 'yle-puhe', 'yle-mondo', 'ylex']
+	stations=[
+		'yle-radio-1', 'yle-puhe', 'yle-mondo', 'ylex', 'yle-x3m', 'yle-radio-vega',
+		'radio-vega-huvudstadsregionen', 'radio-vega-vastnyland', 'radio-vega-aboland',
+		'radio-vega-osterbotten', 'radio-vega-ostnyland', 'yle-radio-suomi',
+		'yle-radio-suomi-lappeenranta', 'yle-radio-suomi-mikkeli', 'yle-radio-suomi-kajaani',
+		'yle-radio-suomi-kotka', 'yle-radio-suomi-lahti', 'yle-radio-suomi-rovaniemi',
+		'yle-radio-suomi-oulu', 'yle-radio-suomi-pohjanmaa', 'yle-radio-suomi-joensuu',
+		'yle-radio-suomi-hameenlinna', 'yle-radio-suomi-kokkola', 'yle-radio-suomi-jyvaskyla',
+		'yle-radio-suomi-kemi', 'yle-radio-suomi-kuopio', 'yle-radio-suomi-pori',
+		'yle-radio-suomi-tampere', 'yle-radio-suomi-turku', 'yle-radio-suomi-helsinki',
+		'yle-sami-radio', 'elavan-arkiston-nettiradio'
+	]
+
 	parser.add_argument(
 		'-s', '--station', choices=stations,
 		help='Yle Radio Station, choices: ' + ', '.join(stations),
-		metavar='YLE-RADIO-STATION', type=str, default='yle-radio-1')
+		metavar='YLE-RADIO-STATION', type=str, default='yle-radio-suomi')
 
 	parser.add_argument(
 		'-V', '--verbose',

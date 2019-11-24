@@ -15,7 +15,19 @@ playing song.
                                 Yle API key
           -s YLE-RADIO-STATION, --station YLE-RADIO-STATION
                                 Yle Radio Station, choices: yle-radio-1, yle-puhe,
-                                yle-mondo, ylex
+                                yle-mondo, ylex, yle-x3m, yle-radio-vega, radio-vega-
+                                huvudstadsregionen, radio-vega-vastnyland, radio-vega-
+                                aboland, radio-vega-osterbotten, radio-vega-ostnyland,
+                                yle-radio-suomi, yle-radio-suomi-lappeenranta, yle-
+                                radio-suomi-mikkeli, yle-radio-suomi-kajaani, yle-
+                                radio-suomi-kotka, yle-radio-suomi-lahti, yle-radio-
+                                suomi-rovaniemi, yle-radio-suomi-oulu, yle-radio-
+                                suomi-pohjanmaa, yle-radio-suomi-joensuu, yle-radio-
+                                suomi-hameenlinna, yle-radio-suomi-kokkola, yle-radio-
+                                suomi-jyvaskyla, yle-radio-suomi-kemi, yle-radio-
+                                suomi-kuopio, yle-radio-suomi-pori, yle-radio-suomi-
+                                tampere, yle-radio-suomi-turku, yle-radio-suomi-
+                                helsinki, yle-sami-radio, elavan-arkiston-nettiradio
           -V, --verbose         increase output verbosity (use up to 2 times)
 
 ## API Key
